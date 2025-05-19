@@ -15,5 +15,9 @@ if(!isset($_SESSION["username"])){
 <body>
     <h1><?php echo $_SESSION["username"] ?> Welcome Your arrival was insane.</h1>
     <h3><a href="tasklist.php">View Tasks</a></h3>
+    <h3><a href="removetask.php">Remove Tasks</a></h3>
+    <h3><a href="addtask.php">Add Tasks</a></h3>
+
+
 </body>
 </html>
